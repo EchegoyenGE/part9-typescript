@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+    "name": "Gaston Echegoyen",
+    "dateOfBirth": "1994-03-03",
+    "ssn": "12345678",
+    "gender": "male",
+    "occupation": "Software engineer"
+}
